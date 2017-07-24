@@ -1,0 +1,43 @@
+header {
+	background: #504c58;
+	position: fixed;
+	top: 10px;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+
+		@media (min-width: $responsive-desktop) {
+			flex-wrap: nowrap;
+		}
+	}
+
+	.main-line {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+
+		@media (min-width: $responsive-desktop) {
+			width: auto;
+			flex-shrink: 0;
+		}
+	}
+
+	.logo {
+		transform: translateY(-3px);
+	}
+
+	.mobile-toggle {
+		padding: 13px 0;
+
+		@media (min-width: $responsive-desktop) {
+			display: none;
+		}
+	}
+}
