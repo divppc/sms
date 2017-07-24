@@ -182,146 +182,193 @@ section.customers {
 			font-family: "ProximaNovaBold";
 		}
 
-
 		&:before {
 			display: block;
 			content: '';
 			flex-shrink: 0;
+			width: 40px;
+			margin-right: 0;
 			background: url('assets/images/icons.png') no-repeat;
 		}
 
 		&:nth-child(1) {
 			&:before {
-				width: 18px;
 				height: 23px;
-				margin-right: 13px;
 				background-position: 0 0px;
+
+				@media (min-width: $responsive-tablet) {
+					width: 18px;				
+					margin-right: 13px;
+				}			
 			}
 		}
 
 		&:nth-child(2) {
 			&:before {
-				width: 20px;
 				height: 14px;
-				margin-right: 13px;
-				background-position: 0 -24px;
+				background-position: 0 -24px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 20px;
+					margin-right: 13px;
+				}
 			}
 		}
 
 		&:nth-child(3) {
 			&:before {
-				width: 20px;
 				height: 21px;
-				margin-right: 20px;
-				background-position: 0 -38px;
+				background-position: 0 -38px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 20px;
+					margin-right: 20px;
+				}
 			}
 		}
 
 		&:nth-child(4) {
 			&:before {
-				width: 19px;
 				height: 23px;
-				margin-right: 14px;
 				background-position: 0 -61px;
+				
+				
+				@media (min-width: $responsive-tablet) {
+					width: 19px;
+					margin-right: 14px;
+				}
 			}
 		}
 
 		&:nth-child(5) {
 			&:before {
-				width: 20px;
 				height: 22px;
-				margin-right: 3px;
 				background-position: 0 -85px;
+
+				@media (min-width: $responsive-tablet) {
+					width: 20px;
+					margin-right: 3px;
+				}
 			}
 		}
 
 		&:nth-child(6) {
 			&:before {
-				width: 21px;
-				height: 20px;
-				margin-right: 15px;
 				background-position: 0 -108px;
+				height: 20px;
+
+				@media (min-width: $responsive-tablet) {
+					width: 21px;
+					margin-right: 15px;
+				}
 			}
 		}
 
 		&:nth-child(7) {
 			&:before {
-				width: 25px;
-				height: 20px;
-				margin-right: 7px;
 				background-position: 0 -129px;
+				height: 20px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 25px;
+					margin-right: 7px;
+				}
 			}
 		}
 
 		&:nth-child(8) {
 			&:before {
-				width: 30px;
 				height: 16px;
-				margin-right: 13px;
-				background-position: 0 -150px;
+				background-position: 0 -150px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 30px;
+					margin-right: 13px;
+				}
 			}
 		}
 
 		&:nth-child(9) {
 			&:before {
-				width: 19px;
 				height: 16px;
-				margin-right: 18px;
-				background-position: 0 -167px;
+				background-position: 0 -167px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 19px;
+					margin-right: 18px;
+				}
 			}
 		}
 
 		&:nth-child(10) {
 			&:before {
-				width: 19px;
 				height: 20px;
-				margin-right: 17px;
-				background-position: 0 -184px;
+				background-position: 0 -184px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 19px;
+					margin-right: 17px;
+				}
 			}
 		}
 
 		&:nth-child(11) {
 			&:before {
-				width: 26px;
-				height: 16px;
-				margin-right: 10px;
 				background-position: 0 -205px;
+				height: 16px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 26px;
+					margin-right: 10px;
+				}
 			}
 		}
 
 		&:nth-child(12) {
 			&:before {
-				width: 22px;
 				height: 20px;
-				margin-right: 19px;
-				background-position: 0 -222px;
+				background-position: 0 -222px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 22px;
+					margin-right: 19px;
+				}
 			}
 		}
 
 		&:nth-child(13) {
 			&:before {
-				width: 19px;
-				height: 19px;
-				margin-right: 15px;
 				background-position: 0 -243px;
+				height: 19px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 19px;
+					margin-right: 15px;
+				}
 			}
 		}
 
 		&:nth-child(14) {
 			&:before {
-				width: 19px;
-				height: 14px;
-				margin-right: 3px;
 				background-position: 0 -263px;
+				height: 14px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 19px;
+					margin-right: 3px;
+				}
 			}
 		}
 
 		&:nth-child(15) {
 			&:before {
-				width: 23px;
-				height: 19px;
-				margin-right: 15px;
 				background-position: 0 -278px;
+				height: 19px;				
+
+				@media (min-width: $responsive-tablet) {
+					width: 23px;
+					margin-right: 15px;
+				}
 			}
 		}
 	}
