@@ -386,22 +386,24 @@ section.other-services {
 			width: 235px;
 		}
 
-		&:nth-child(2) {
-			transform: translateY(-15px);
+		&:hover {
 			position: relative;
+			z-index: 1;
+		}
 
-			.service-title,
-			.more {
-				background: transparent;
-			}
+		&:nth-child(2) {
 
-			.tooltip {
-				z-index: 3;
-			}
+			@media (min-width: $responsive-tablet) {
+				transform: translateY(-15px);
 
-			&:hover {
-				position: relative;
-				z-index: 1;
+				.tooltip {
+					z-index: 3;
+				}
+
+				.service-title,
+				.more {
+					background: transparent;
+				}
 			}
 		}
 	}
