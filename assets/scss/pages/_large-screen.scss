@@ -1,0 +1,106 @@
+@media (min-width: $responsive-hd) {
+
+	nav {
+		padding: 15px 0;
+
+		a {
+			font-size: 24px;
+		}
+
+		.main-menu {
+			padding-left: 34px;
+
+			&>li {
+
+				&:not(:last-child) {
+					margin-right: 60px;
+				}
+			}
+		}
+
+		.user-menu {
+
+			&>li {
+
+				&:not(:last-child) {
+					margin-right: 50px;
+				}
+			}
+		}
+	}
+
+	.switch-language {
+
+		a {
+			padding: 13px 27px;
+		}
+	}
+
+	section.main {
+
+		.disclaimer {
+			max-width: 560px;
+
+			.content {
+
+				div {
+					font-size: 54px;
+				}
+			}
+		}
+	}
+
+	section.main .disclaimer .content p {
+		font-size: 30px;
+		margin: 15px 0 25px 0;
+	}
+
+	section.main .disclaimer a {
+		height: 36px;
+		background: url("assets/images/icons-big.png") no-repeat 40px -948px;
+	}
+
+	section.main .disclaimer a:before, section.main .disclaimer a:after {
+		width: 29px;
+		height: 36px;
+		background: url("assets/images/icons-big.png") no-repeat 0px -948px;
+	}
+
+	section.main .disclaimer a:before {
+		margin-right: 25px;
+	}
+
+	section.main .disclaimer a:after {
+		margin-left: 25px;
+	}
+
+	section.main h1 {
+		padding-bottom: 90px;
+		font-size: 45px;
+	}
+
+	section.customers .container {
+		padding-top: 185px;
+	}
+
+	section.customers h2 {
+		margin-bottom: 70px;
+	}
+
+	section.customers .customer-list {
+		max-width: 885px;
+		margin: 0 auto 120px;
+	}
+
+	section.advantages .container {
+		padding-top: 205px;
+	}
+
+	section.advantages h5 {
+		margin-bottom: 80px;
+	}
+
+	section.advantages .li-icon {
+		margin: 0 auto 20px;
+	}
+}
