@@ -232,6 +232,7 @@
 
 	section.advantages .container {
 		padding-top: 110px;
+		padding-bottom: 0;
 	}
 
 	section.advantages .li-icon {
@@ -266,5 +267,640 @@
 		width: 32px;
 		height: 35px;
 		background-position: 0 -730px;
+	}
+
+	section.last .item-title {
+		font-size: 27px;
+	}
+
+	section.last .item-description {
+		margin: 35px 0;
+		font-size: 19.5px;
+	}
+
+	section.last .item-link {
+		font-size: 19.92px;
+	}
+
+	section.last .item-title:before {
+		margin: 0 auto 20px;
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.last .section-container .item:nth-child(1) .item-title:before {
+		width: 42px;
+		height: 42px;
+		background-position: 0 -767px;
+	}
+
+	section.last .section-container .item:nth-child(2) .item-title:before {
+		width: 47px;
+		height: 47px;
+		background-position: 0 -810px;
+	}
+
+	section.last .section-container .item:nth-child(3) .item-title:before {
+		width: 53px;
+		height: 42px;
+		background-position: 0 -859px;
+	}
+
+	section.last .section-container .item:nth-child(4) .item-title:before {
+		width: 42px;
+		height: 42px;
+		background-position: 0 -903px;
+	}
+
+	section.solutions .section-container {
+		max-width: 77.6%;
+	}
+
+	section.solutions h1 {
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+
+	section.solutions aside {
+		width: 24.5%;
+		padding-right: 25px;
+	}
+
+	section.solutions article {
+		width: calc(100% - 24.5%);
+	}
+
+	section.solutions aside .aside-list {
+		margin-bottom: 35px;
+	}
+
+	section.solutions aside .aside-list a {
+		padding: 25px 0 35px 0;
+	}
+
+	section.solutions aside .aside-list span {
+		font-size: 19.87px;
+	}
+
+	section.solutions aside .slider {
+		width: 100%;
+		height: 535px;
+	}
+
+	section.solutions aside .dots {
+		margin-top: 25px;
+	}
+
+	section.solutions aside .dots li:not(:last-child) {
+		margin-right: 15px;
+	}
+
+	section.solutions aside .dots button {
+		width: 12px;
+		height: 12px;
+	}
+
+	.slick-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	section.solutions article .solution:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	section.solutions article .img-holder {
+		width: 412px;
+		height: 292px;
+	}
+
+	section.solutions article .img-holder {
+		margin: 0 30px 0 0;
+	}
+
+	section.solutions article .title {
+		font-size: 33px;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	section.solutions article li {
+		font-size: 19.87px;
+		align-items: flex-start;
+	}
+
+	section.solutions article li:before {
+		width: 14px;
+		height: 18px;
+		margin-top: 5px;
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.solutions article li:first-child:before {
+		background-position: 0 -1113px;
+	}
+
+	section.solutions article li:last-child:before {
+		background-position: 0 -1132px;
+	}
+
+	section.solutions article .description {
+		font-size: 19.5px;
+	}
+
+	section.solutions article .description + a {
+		width: 40px;
+		height: 16px;
+		margin-top: 25px;
+		background: url('assets/images/icons-big.png') no-repeat 0px -1149px;
+	}
+
+	section.solutions {
+    background: url(assets/images/city2-bg.png) repeat-x center 105%, #F9F9F9;
+	}
+
+	section.ask-more h2 + span, section.ask-more h3 + span, section.ask-more h4 + span, section.ask-more h5 + span, section.ask-more h6 + span {
+		font-size: 19.5px;
+	}
+
+	section.ask-more .ask-buttons {
+		margin-top: 60px;
+	}
+
+	section.ask-more .ask-buttons a {
+		width: 290px;
+		max-width: 290px;
+		margin: 0 25px;
+		height: 56px;
+	}
+
+	section.ask-more .ask-buttons > * {
+		font-size: 19.87px;
+	}
+
+	section.ask-more .ask-buttons a:before {
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.ask-more .ask-buttons a:first-of-type:before {
+		width: 24px;
+		height: 23px;
+		margin-right: 10px;
+		background-position: 0 -985px;
+	}
+
+	section.ask-more .ask-buttons a:last-of-type:before {
+		width: 20px;
+		height: 18px;
+		margin-right: 20px;
+		background-position: 0 -1009px;
+	}
+
+	section.ask-more .container {
+		padding-bottom: 80px;
+	}
+
+	footer .container {
+		padding-top: 55px;
+		padding-bottom: 55px;
+	}
+
+	footer span {
+		font-size: 26.07px;
+	}
+
+	footer p {
+		margin: 10px auto 35px auto;
+		font-size: 17px;
+		line-height: 26px;
+		max-width: 460px;
+	}
+
+	footer form {
+		max-width: 560px;
+		margin: 0 auto 40px;
+	}
+
+	footer form input[type="email"] {
+		margin-right: 8px;
+		height: 55px;
+	}
+
+	footer form input[type="submit"] {
+		max-width: 165px;
+		height: 55px;
+		font-size: 19.5px;
+	}
+
+	footer ul li:nth-child(1) {
+		margin-right: 9px;
+	}
+
+	footer ul li:nth-child(2) {
+		margin-right: 18px;
+	}
+
+	footer ul li:nth-child(3) {
+		margin-right: 11px;
+	}
+
+	footer ul a {
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	footer ul li:nth-child(1) a {
+		width: 12px;
+		height: 21px;
+		background-position: 0 -1028px;
+	}
+
+	footer ul li:nth-child(2) a {
+		width: 33px;
+		height: 18px;
+		background-position: 0 -1050px;
+	}
+
+	footer ul li:nth-child(3) a {
+		width: 21px;
+		height: 21px;
+		background-position: 0 -1069px;
+	}
+
+	footer ul li:nth-child(4) a {
+		width: 29px;
+		height: 21px;
+		background-position: 0 -1091px;
+	}
+
+	section.how .container {
+		padding-top: 155px;
+		padding-bottom: 75px;
+	}
+
+	section.how h1 {
+		padding-bottom: 35px;
+		margin-bottom: 80px;
+	}
+
+	section.how .container {
+		max-width: 76.40625%
+	}
+
+	section.how .section-container {
+		max-width: 91%;
+	}
+
+	section.how .response > div,
+	section.how .response .response-video iframe {
+		min-height: 365px;
+	}
+
+	section.how .response .response-data {
+		font-size: 19.5px;
+		padding: 25px 40px 25px 60px;
+	}
+
+	section.how .response ul {
+		margin-top: 25px;
+	}
+
+	section.how .response ul li:first-child {
+		margin-bottom: 5px;
+	}
+
+	section.how .response ul li:before {
+		width: 23px;
+		margin-right: 15px;
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.how .response ul li:first-child:before {
+		height: 12px;
+		background-position: 0 -1193px;
+	}
+
+	section.how .response ul li:last-child:before {
+		height: 21px;
+		background-position: 0 -1205px;
+	}
+
+	section.how .process-list {
+		margin: 85px 0 135px 0;
+	}
+
+	section.how .process-list li:not(:last-child) {
+		margin-bottom: 50px;
+	}
+
+	section.how .process-list span {
+		font-size: 33px;
+	}
+
+	section.how .process-list p {
+		margin-top: 15px;
+		font-size: 19.5px;
+	}
+
+	section.how .additional-advantages h2 {
+		max-width: 1040px;
+	}
+
+	section.how .additional-advantages img {
+		margin: 85px auto 105px auto;
+	}
+
+	section.how .additional-advantages ul li {
+		font-size: 19.87px;
+	}
+
+	section.how .additional-advantages ul li:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	section.how .additional-advantages ul li:before {
+		background: url('assets/images/icons-big.png') no-repeat;
+		width: 32px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(1):before {
+		height: 20px;
+		background-position: 0 -1228px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(2):before {
+		height: 18px;
+		background-position: 0 -1249px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(3):before {
+		height: 15px;
+		background-position: 4px -1269px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(4):before {
+		height: 18px;
+		background-position: 0 -1285px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(5):before {
+		height: 17px;
+		background-position: 0 -1304px;
+	}
+
+	section.how .additional-advantages ul li:nth-child(6):before {
+		height: 14px;
+		background-position: 0 -1322px;
+	}
+
+	section.how + section.last + section.callback-form .container {
+		padding-bottom: 110px;
+
+	}
+
+	section.callback-form .container {
+		max-width: 1180px;
+	}
+
+	section.callback-form .form-field input:not([type="submit"]) {
+		width: 277px;
+		min-height: 51px;
+		margin-bottom: 22px;
+	}
+
+	section.callback-form .form-field textarea {
+		height: 175px;
+		margin-bottom: 30px;
+	}
+
+	section.callback-form .form-field input[type="submit"] {
+		width: 272px;
+		height: 57px;
+		font-size: 19.87px;
+	}
+
+	section.callback-form .container {
+		padding-bottom: 70px;
+		padding-top: 125px;
+	}
+
+	.to-top {
+		right: -60px;
+		bottom: 110px;
+	}
+
+	section.qa .container {
+		max-width: 1180px;
+	}
+
+	section.qa .tabs-panel {
+		margin-bottom: 45px;
+	}
+
+	section.qa .tabs-panel a {
+		font-size: 19.87px;
+		height: 57px;
+		padding: 0 35px;
+		line-height: 57px;
+	}
+
+	section.qa .item .q {
+		font-size: 19.87px;
+		padding: 15px 0;
+	}
+
+	section.qa .item .a {
+		font-size: 16px;
+	}
+
+	section.qa .item .q:before {
+		height: 19px;
+		width: 20px;
+		background: url('assets/images/icons-big.png') no-repeat 0px -1868px;
+	}
+
+	section.tarifs .container {
+		padding-top: 170px;
+		padding-bottom: 50px;
+		max-width: 90%;
+	}
+
+	section.tarifs .tarif {
+		width: 410px;
+		padding: 75px 30px;
+	}
+
+	section.tarifs .tarif-icon {
+		width: 108px;
+		height: 108px;
+		border-radius: 50%;
+	}
+
+	section.tarifs .tarif-icon:before {
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.tarifs .tarif:nth-child(1) .tarif-icon:before {
+		width: 66px;
+		height: 47px;
+		background-position: 0 -1354px;
+	}
+
+	section.tarifs .tarif:nth-child(2) .tarif-icon:before {
+		width: 60px;
+		height: 53px;
+		background-position: 0 -1403px;
+	}
+
+	section.tarifs .tarif:nth-child(3) .tarif-icon:before {
+		width: 56px;
+		height: 48px;
+		background-position: 0 -1456px;
+	}
+
+	section.tarifs .tarif-main .duration {
+		font-size: 37.5px;
+		margin-bottom: 7px;
+	}
+
+	section.tarifs .tarif-main .price {
+		font-size: 45px;
+	}
+
+	section.tarifs .tarif-main .setup-price {
+		font-size: 28.23px;
+		margin: 7px 0;
+	}
+
+	section.tarifs .tarif-main .total-price {
+		font-size: 24.77px;
+	}
+
+	section.tarifs .tarif-main {
+		padding-bottom: 45px;
+	}
+
+	section.tarifs .included-options li {
+		font-size: 21px;
+		padding: 20px 10px 20px 100px;
+	}
+
+	section.tarifs .included-options li:before {
+		background: url('assets/images/icons-big.png') no-repeat;
+	}
+
+	section.tarifs .included-options li.option1:before {
+		width: 42px;
+		height: 50px;
+		background-position: 0 -1504px;
+		left: 30px;
+	}
+
+	section.tarifs .included-options li.option2:before {
+		width: 54px;
+		height: 54px;
+		background-position: 0 -1556px;
+		left: 25px;
+	}
+
+	section.tarifs .included-options li.option3:before {
+		width: 48px;
+		height: 42px;
+		background-position: 0 -1611px;
+		left: 27px;
+	}
+
+	section.tarifs .included-options li.option4:before {
+		width: 50px;
+		height: 51px;
+		background-position: 0 -1654px;
+		left: 25px;
+	}
+
+	section.tarifs .included-options li.option5:before {
+		width: 48px;
+		height: 54px;
+		background-position: 0 -1706px;
+		left: 25px;
+	}
+
+	section.tarifs .leave-order {
+		margin-top: 45px;
+	}
+
+	section.tarifs .section-container {
+		margin: 110px auto 50px auto;
+	}
+
+	section.tarifs h1 {
+		margin-bottom: 15px;
+	}
+
+	section.tarifs h1 + span {
+		font-size: 22.5px;
+	}
+
+	section.tarifs .additional-options h2 {
+		margin-bottom: 15px;
+	}
+
+	section.tarifs .additional-options li {
+		font-size: 19.87px;
+		padding: 3px 0;
+	}
+
+	section.tarifs .additional-options li:before {
+		background: url('assets/images/icons-big.png') no-repeat;
+		width: 25px;
+	}
+
+	section.tarifs .additional-options li:nth-child(1):before {
+		height: 17px;
+		background-position: 0 -1761px;
+	}
+
+	section.tarifs .additional-options li:nth-child(2):before {
+		height: 17px;
+		background-position: 0 -1779px;
+	}
+
+	section.tarifs .additional-options li:nth-child(3):before {
+		height: 17px;
+		background-position: 0 -1797px;
+	}
+
+	section.tarifs .additional-options li:nth-child(4):before {
+		height: 15px;
+		background-position: 0 -1816px;
+	}
+
+	section.tarifs .additional-options li:nth-child(5):before {
+		height: 17px;
+		background-position: 0 -1830px;
+	}
+
+	section.tarifs .additional-options li:nth-child(6):before {
+		height: 17px;
+		background-position: 0 -1850px;
+	}
+
+	section.other-services {
+		padding-bottom: 100px;
+	}
+
+	section.other-services .section-container {
+		max-width: 90%;
+	}
+
+	section.other-services .service-wrap {
+		margin: 80px auto 0;
+	}
+
+	section.other-services .service {
+		width: calc(100% / 5);
+	}
+
+	section.other-services .service {
+		position: relative;
 	}
 }

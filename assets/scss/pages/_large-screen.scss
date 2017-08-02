@@ -103,4 +103,88 @@
 	section.advantages .li-icon {
 		margin: 0 auto 20px;
 	}
+
+	section.last .container {
+		padding-top: 190px;
+	}
+
+	section.last h6, section.last h3 {
+		margin: 0 auto 35px;
+	}
+
+	section.last .leave-order {
+		margin: 0 auto 120px;
+	}
+
+	section.last .container {
+		max-height: calc(100vh - 84px);
+	}
+
+	.copyright {
+		font-size: 19.87px;
+		padding: 30px 10px;
+	}
+
+	section.other-services .service-title {
+		padding: 40px 10px;
+		font-size: 27px;
+	}
+
+	section.other-services .service-title span {
+		margin-top: 8px;
+		font-size: 21px;
+	}
+
+	section.other-services .service-price i {
+		font-size: 24.33px;
+	}
+
+	section.other-services .service-price b {
+		margin: 0 8px;
+		font-size: 46px;
+	}
+
+	section.other-services .more {
+		padding: 45px 0 50px 0;
+	}
+
+	section.other-services .more a {
+		width: 225px;
+		height: 55px;
+		line-height: 55px;
+		font-size: 19.93px;
+	}
+
+	section.solutions .section-container {
+		padding: 155px 0 100px 0;
+	}
+
+	section.tarifs .container {
+		max-width: 1440px;
+	}
+
+	section.tarifs .tarif {
+		width: 457px;
+	}
+
+	section.other-services .service-price b {
+		font-size: 82.5px;
+	}
+
+	section.other-services .service-price {
+		padding: 65px 25px 50px;
+	}
+
+	.to-top {
+		width: 67px;
+		height: 67px;
+		right: -80px;
+	}
+
+	.to-top:after {
+		background: url('assets/images/icons-big.png') no-repeat 0px -1338px;
+		width: 23px;
+		bottom: 196px;
+		height: 15px;
+	}
 }
